@@ -1,0 +1,26 @@
+{
+  "minMuleVersion": "4.1.0",
+  "requiredProduct": "MULE",
+  "extensionModelLoaderDescriptor": {
+    "id": "crafted",
+    "attributes": {
+      "type": "com.mule.spring.config.CustomConfigurationPropertiesExtensionLoadingDelegate"
+    }
+  },
+  "name": "Mule Custom Spring Config Provider",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [
+        "com.mule.spring.config"
+      ],
+      "exportedResources": [
+        "META-INF/services/org.mule.runtime.config.api.dsl.model.properties.ConfigurationPropertiesProviderFactory"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
