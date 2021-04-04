@@ -1,18 +1,3 @@
-# Custom properties provider Extension
+# Mule 4 Spring Cloud Config Extension
+Mule 4 extension which reads properties from spring cloud config server and injects the properties into mule 4 application.
 
-Add description ...
-
-
-...
-
-
-...
-
-
-Add this dependency to your application pom.xml
-
-```
-<groupId>com.my.company.custom.provider</groupId>
-<artifactId>mule-custom-properties-providers-module</artifactId>
-<version>1.0.0-SNAPSHOT</version>
-```
